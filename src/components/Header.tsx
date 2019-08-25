@@ -5,7 +5,7 @@ type State = {
 type Props = {
 }
 
-export class InitialScreen extends React.Component<Props, State> {
+export class Header extends React.Component<Props, State> {
 
   constructor(props: Props) {
     super(props)

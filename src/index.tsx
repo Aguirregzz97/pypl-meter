@@ -13,9 +13,9 @@ Log.logger.info('Starting app...')
 initializeIcons()
 
 render((
-  <HashRouter>
-    <App />
-  </HashRouter>
+<HashRouter>
+  <App />
+</HashRouter>
 ), document.getElementById('root'), () => {
   Log.logger.info('Done rendering!')
 })

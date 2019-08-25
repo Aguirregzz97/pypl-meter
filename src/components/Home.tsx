@@ -1,5 +1,6 @@
 import * as React from 'react'
-import { InitialScreen } from './InitialScreen'
+import { Header } from './Header'
+import { Map } from './Map'
 
 type State = {
 }
@@ -15,7 +16,11 @@ export class Home extends React.Component<Props, State> {
 
   render() {
     return (
-        <InitialScreen />
+      <div>
+        <Header />
+        <div id='map' />
+        <Map />
+      </div>
     )
   }
 }

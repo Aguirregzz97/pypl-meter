@@ -33,7 +33,6 @@
     "ban-types": [true, ["String", "Use string instead"]],
     "no-conditional-assignment": true,
     "prefer-for-of": true,
-    "no-console": [true, "log"],
     "no-empty": true,
     "no-invalid-this": true,
     "no-shadowed-variable": true,

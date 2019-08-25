@@ -21,7 +21,7 @@ export class RingLoaderWrapper extends React.Component<Props, State> {
             color='#4682B4'
             size={ 200 } />
         </div>
-        <h1 className='text-center' style={ { color: '#4682B4', fontSize: '30px', marginTop: '20px' } }>Etisys Online</h1>
+        <h1 className='text-center' style={ { color: '#4682B4', fontSize: '30px', marginTop: '20px' } }>pypl-meter</h1>
       </div>
     )
   }
